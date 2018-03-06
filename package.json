@@ -1,0 +1,34 @@
+{
+  "name": "newsano",
+  "version": "1.0.0",
+  "description": "The best newspaper in Schibsted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-modules test/test.mjs",
+    "start": "node --experimental-modules server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schibsted-seals/newsano.git"
+  },
+  "keywords": [
+    "news",
+    "newspaper",
+    "schibsted"
+  ],
+  "author": "Lechia Gdynia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schibsted-seals/newsano/issues"
+  },
+  "homepage": "https://github.com/schibsted-seals/newsano#readme",
+  "dependencies": {
+    "jsdom": "^11.6.2",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2"
+  },
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
