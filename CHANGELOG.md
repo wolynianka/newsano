@@ -1,4 +1,4 @@
 # Changelog
 
-## v0.1.0.0
-Remove copy of art.
+## v0.1.0
+First release of our news service.
