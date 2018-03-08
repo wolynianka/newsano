@@ -65,3 +65,4 @@ workflows:
               only:
                 - develop
                 - master
+                - /release.*/
