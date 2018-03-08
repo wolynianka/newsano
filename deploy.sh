@@ -14,10 +14,12 @@ CLUSTER_NAME="ecs-newsano"
 if [ ${4} = "develop" ]; then
    CLUSTER_NAME="ecs-newsano-develop"
    REGION="eu-west-2"
-
- else
+elif [ ${4} = "master" ]; then
   CLUSTER_NAME="ecs-newsano"
   REGION="eu-west-1"
+else
+  CLUSTER_NAME="ecs-newsano-stage"
+  REGION="eu-west-2"
 fi
 
 echo "Cluster name: ${CLUSTER_NAME}"
